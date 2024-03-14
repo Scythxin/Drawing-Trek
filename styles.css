@@ -1,0 +1,52 @@
+header h1{
+    text-align: center;
+}
+.images li{
+    width: 100%;
+    margin: 10px;
+    display:flex;
+    width: 40%;
+    margin: 20px;
+
+}
+.images{
+    white-space: nowarp;
+    margin: 10px 0px;
+    column-count: 4;
+}
+.images li img{
+    max-width: 200%;
+    /* transform: rotate(90deg); */
+}
+.images li:hover{
+    position: relative;
+    top: -10px;
+}
+@media screen and (max-width: 1100px) {
+    .images{
+        column-count: 3;
+    }
+}
+@media screen and (max-width: 800px) {
+    .images{
+        column-count: 2;
+    }
+}
+@media screen and (max-width: 500px) {
+    .images{
+        column-count: 1;
+    }
+}
+@media (max-width: 400px){
+    .images li{
+        padding: 0;
+        margin: 0;
+    }
+}
+/* body{
+    background-image: url(CONTENT1/Anita\ Max\ Wynn.jpg);
+} */
+
+/* .rot{
+    transform: rotate(270deg);
+} */
