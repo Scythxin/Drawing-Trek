@@ -1,23 +1,23 @@
 header h1{
     text-align: center;
 }
-.images li{
+/* .images li{
     width: 100%;
     margin: 10px;
     display:flex;
     width: 40%;
     margin: 20px;
-
-}
+} */
 .images{
     white-space: nowarp;
     margin: 10px 0px;
     column-count: 4;
+    display: flex;
 }
-.images li img{
+/* .images li img{
     max-width: 200%;
-    /* transform: rotate(90deg); */
-}
+    /* transform: rotate(90deg); 
+}*/
 .images li:hover{
     position: relative;
     top: -10px;
@@ -50,3 +50,7 @@ header h1{
 /* .rot{
     transform: rotate(270deg);
 } */
+
+body{
+    background-image: url(CONTENT1/Anita\ Max\ Wynn.jpg);
+} 
